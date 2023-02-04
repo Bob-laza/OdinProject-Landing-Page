@@ -2,6 +2,7 @@ body {
     font-family: 'Gidole', sans-serif;
     width: 100vw;
     height: 100vh;
+    max-width: 100%;
 }
 .header,
 .footer {
@@ -14,15 +15,15 @@ body {
 
 .section1,
 .section2,
-.section3,
-.section4{
+.section3{
+
     width: 100%;
     min-height: 22.5%;
 }
 
 .section1 {
     padding-top: 3%;
-    width: 80%;
+    width: 70%;
     padding-right: 15%;
     padding-left: 15%;
     padding-bottom: 3%;
@@ -69,5 +70,89 @@ body {
     border-radius: 8px;
     width: 255px;
     height: 255px;
-    margin-right: 35%;
+    margin-right: 15%;
+    display: flex;
+}
+
+.s1h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.s2h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.section2{
+    width: 70%;
+    padding-left: 230px;
+}
+.b1container{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.b1container:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.s2boximg{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.s2boximg:hover{
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.section3{
+    margin-top: 70px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s3h3{
+    max-width: 70%;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937
+}
+
+.s3h4{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: 40%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: large;
 }
